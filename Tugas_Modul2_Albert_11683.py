@@ -4,7 +4,7 @@ import pickle
 import os
 
 #load model yang sudah dibuta dari jupyter notebook
-model=r'GBT_heartDisease_model.pkl'
+model= 'GBT_heartDisease_model.pkl'
 
 with open(model, 'rb') as f:
     loaded_model = pickle.load(f)
