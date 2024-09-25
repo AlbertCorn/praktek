@@ -3,7 +3,7 @@ import streamlit as st
 import pickle
 import os
 
-#load model yang sudah dibuta dari jupyter notebook
+#load model yang sudah dibuta dari jupyter notebookkk
 model= 'GBT_heartDisease_model.pkl'
 
 with open(model, 'rb') as f:
