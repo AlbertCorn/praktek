@@ -4,8 +4,7 @@ import pickle
 import os
 
 #load model yang sudah dibuta dari jupyter notebook
-model_path = r'D:\Semester 5\Pembelajaran mesin dan Pembelajaran Mendalam\preparation dan evaluasi\praktikum\praktek'
-model=os.path.join(model_path, r'GBT_heartDisease_model.pkl')
+model=r'GBT_heartDisease_model.pkl'
 
 with open(model, 'rb') as f:
     loaded_model = pickle.load(f)
